@@ -12,7 +12,7 @@ const BlogDetails = ({blog}) => {
     <div>
     <div className="px-2  md:px-10 bg-red-400 dark:bg-accentDark text-light dark:text-dark py-2 flex items-center justify-around flex-wrap text-lg sm:text-xl font-medium mx-5  md:mx-10 rounded-lg">
       <time className="m-3">
-        {/* {format(parseISO(blog.publishedAt), "LLLL d, yyyy")} */}{new Date(details?.sys?.createdAt).toDateString()}
+        {/* {format(parseISO(blog.publishedAt), "LLLL d, yyyy")} */}{new Date(details?.sys?.updatedAt).toDateString()}
       </time>
       <span className="m-3">
         <ViewCounter  />

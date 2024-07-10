@@ -33,7 +33,7 @@ const BlogLayoutTwo = ({blog}) => {
           <h2 className="font-semibold capitalize text-base sm:text-lg">
             <span
               className="bg-gradient-to-r from-accent/50 dark:from-accentDark/50 to-accent/50 dark:to-accentDark/50 bg-[length:0px_6px]
-                group-hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 "
+                group-hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat hover:bg-sky-700 transition-[background-size] duration-500 "
             >
                  {blog?.fields?.title}
             </span>
@@ -41,7 +41,7 @@ const BlogLayoutTwo = ({blog}) => {
         </Link>
 
         <span className="inline-block w-full capitalize text-gray dark:text-light/50 font-semibold  text-xs sm:text-base">
-          {new Date(blog?.sys?.createdAt).toDateString()}
+          {new Date(blog?.sys?.updatedAt).toDateString()}
         </span>
       </div>
     </div>

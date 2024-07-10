@@ -43,7 +43,7 @@ const BlogLayoutThree = ({blog}) => {
             <span
               className="bg-gradient-to-r from-accent/50 to-accent/50  dark:from-accentDark/50
               dark:to-accentDark/50
-              bg-[length:0px_6px]
+              bg-[length:0px_6px] hover:bg-sky-700
               group-hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 "
             >
                   {blog?.fields?.title}
@@ -52,7 +52,7 @@ const BlogLayoutThree = ({blog}) => {
         </Link>
 
         <span className="capitalize text-gray dark:text-light/50 font-semibold text-sm  sm:text-base">
-          {/* {format(new Date(blog.publishedAt), "MMMM dd, yyyy")} */}{new Date(blog?.sys?.createdAt).toDateString()}
+          {/* {format(new Date(blog.publishedAt), "MMMM dd, yyyy")} */}{new Date(blog?.sys?.updatedAt).toDateString()}
         </span>
       </div>
     </div>

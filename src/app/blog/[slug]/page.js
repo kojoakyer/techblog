@@ -35,7 +35,7 @@ export default async function BlogPage({ params }) {
 
 
     const imgUrl = 'https:'+ data[0]?.fields?.image?.fields?.file?.url
-    const imgUr = 'https:'+ data[0]?.fields?.image?.fields?.file
+
 
 
   return (
