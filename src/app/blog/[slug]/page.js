@@ -35,6 +35,7 @@ export default async function BlogPage({ params }) {
 
 
     const imgUrl = 'https:'+ data[0]?.fields?.image?.fields?.file?.url
+    const imgUr = 'https:'+ data[0]?.fields?.image?.fields?.file
 
 
   return (
@@ -59,11 +60,11 @@ export default async function BlogPage({ params }) {
         <div className="absolute top-0 left-0 right-0 bottom-0 h-full bg-dark/60 dark:bg-dark/40" />
         <Image
           src={imgUrl}
-          placeholder="blur"
+          // placeholder="blur"
         //   blurDataURL=''
           alt='ok'
-          width=''
-          height=''
+          width={100}
+          height={100}
           className="aspect-square w-full h-full object-cover object-center"
           sizes="100vw"
         />
