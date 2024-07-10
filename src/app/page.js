@@ -3,7 +3,7 @@ import FeaturedPosts from "@/components/Home/FeaturedPosts";
 import HomeCoverSection from "@/components/Home/HomeCoverSection";
 import RecentPost from "@/components/Home/RecentPost";
 import { client } from "@/config/contentful";
-import Image from "next/image";
+
 // import { useEffect, useState } from "react";
 
 

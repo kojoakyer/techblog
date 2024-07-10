@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { contentfulLoader } from "@delicious-simplicity/next-image-contentful-loader";
+// import { contentfulLoader } from "@delicious-simplicity/next-image-contentful-loader";
 
 
 const BlogLayoutThree = ({blog}) => {

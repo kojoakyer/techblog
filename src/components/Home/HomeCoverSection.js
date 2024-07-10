@@ -3,9 +3,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import Tags from '../Elements/Tags'
-import { sortBlogs } from '@/utils'
-import BlogLayoutOne from '../Blog/BlogLayoutOne'
-import { contentfulLoader } from "@delicious-simplicity/next-image-contentful-loader";
+// import { sortBlogs } from '@/utils'
+// import BlogLayoutOne from '../Blog/BlogLayoutOne'
+// import { contentfulLoader } from "@delicious-simplicity/next-image-contentful-loader";
 
 const HomeCoverSection =  ({blogs}) => {
     console.log(blogs,'homecoversection')

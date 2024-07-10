@@ -5,8 +5,6 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import Link from 'next/link'
 
 
-const options ={}
-
 const RichText = ({ content }) => {
     console.log(content,'rich');
     const options = {}
